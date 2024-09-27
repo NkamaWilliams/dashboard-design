@@ -5,10 +5,10 @@ import IconNotify from "./IconNotify"
 
 export default function Sidebar(){
   return(
-    <nav className="max-w-56 tablet:max-w-72 w-full max-h-screen box-border m-7 tablet:m-14">
-      <img src={logo} alt="Aeon Logo" />
+    <nav className="flex flex-col max-w-56 tablet:max-w-72 w-full max-h-screen box-border m-7 tablet:m-14">
+      <img src={logo} alt="Aeon Logo" width={87} height={30}/>
 
-      <div className="h-full box-border flex flex-col justify-between items-between border-r-2 border-primary-muted">
+      <div className="flex-1 box-border flex flex-col justify-between items-between border-r-2 border-primary-muted">
         <div className="my-10 max-w-48">
           <IconLink src="/chart.svg" text="Overview"/>
           <IconAccordion src="/case.svg" text="Product"/>
