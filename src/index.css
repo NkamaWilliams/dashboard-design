@@ -10,9 +10,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: black;
-  background-color: white;
+  /* color-scheme: light dark; */
+  /* color: black; */
+  /* background-color: white; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,4 +23,31 @@
   --primary-muted: #E6EDFF;
   --secondary: #347AE2;
   --alert: #FF3B30;
+}
+.bold-it{
+  font-weight: 500;
+}
+.dashBoard{
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+th{
+  font-weight: 600;
+  font-size: small;
+  padding: 10px;
+  padding-top: 0;
+}
+td,tr{
+  padding: 10px;
+  text-align: left;
+  font-size: small;
+}
+.my-rounded{
+  border-radius: 60px;
+}
+.my-height{
+  height: 26vh;
+}
+.reduce{
+  width: 23%;
 }
